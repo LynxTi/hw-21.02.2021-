@@ -1,3 +1,7 @@
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
 .header {
     background: #EEEEF0;
     display: flex;
@@ -44,4 +48,21 @@
 .general-menu__link {
     color: white;
     text-decoration: none;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px 80px;
+}
+
+.content__introduction-block {
+    padding-right: 40px;
+    width: calc(100% / 2 - 40px);
+    
+}
+
+.form-container {
+    width: calc(100% / 2 - 40px);
+
 }
