@@ -3,10 +3,12 @@ body {
 }
 
 .header {
+    height: 70px;
     background: #d1d1d4;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding-left: 120px;
 }
 
 .header__logo__img {
@@ -22,9 +24,23 @@ body {
     border: none;
     background-color: inherit;
     margin-right: 20px;
+    color:rgb(228, 112, 74);
+}
+
+.header__login-block__button i {
+    color: black;
+}
+
+.header__login-block__input {
+    margin-right: 97px;
+    width: 212px;
+    height: 30px;
+    border-radius: 4px;
+    border: inherit;
 }
 
 .general-menu {
+    height: 55px;
     display: flex;
     align-items: center;
     background-color: black;
@@ -228,4 +244,22 @@ body {
 
 .partners__wrap-images img {
     width: calc(100% / 5 - 5px);
+}
+
+.footer {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px ;
+}
+
+.footer__contakts-blocks {
+    color: wheat;
+    display: flex;
+    gap: 10px;
+}
+
+.footer__cantakts-block span {
+    display: block;
 }
